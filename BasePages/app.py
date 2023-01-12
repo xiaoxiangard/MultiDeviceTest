@@ -14,8 +14,8 @@ from Utils.yaml_info import YamlInfo
 
 class App(BasePage):
     # 启动
-    def start(self):
-        data = YamlInfo.read_info()
+    def start(self, app_mul):
+        data = YamlInfo.read_info(app_mul)
         if self.driver is None:
             logging.info(f"driver为:{self.driver}")
             # 初始化操作：打开应用

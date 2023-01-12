@@ -1,10 +1,10 @@
 #mumu链接配置项
 mulatorsetcaps:
   platformName: Android
-  platformVersion: 6.0
+  platformVersion: 6.0.0
   deviceName: 127.0.0.1:7555
-  appPackage: com.tencent.wework
-  appActivity: .launch.WwMainActivity
+  appPackage: com.xueqiu.android
+  appActivity: .view.WelcomeActivityAlias
   skipDeviceInitialization: True #跳过设备初始化，跳过settings.apk的安装与设置
   skipServerInstallation: True #跳过uiautomato2 服务安装
   udid: 127.0.0.1:7555 #多台设备，通过udid识别,链接的物理设备的唯一标识
